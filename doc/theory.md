@@ -48,9 +48,10 @@ docker pull
 >Ejecutar sobre un contenedor
 ```bash
 docker exec
+docker exec id_nombre_contenedor comando
 ```
 
 
 ### Next
-[Cap 14](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16644356#questions)
+[Cap 14](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16683786#questions)
 
