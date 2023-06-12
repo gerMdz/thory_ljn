@@ -11,7 +11,6 @@ Casos reales.
 - Spotify
 - Amazon
 
-
 Comandos
 
 >Iniciar contenedor
@@ -53,5 +52,5 @@ docker exec id_nombre_contenedor comando
 
 
 ### Next
-[Cap 16](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16701264#questions)
+[Cap 18](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16683794#questions)
 
