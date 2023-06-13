@@ -50,7 +50,11 @@ docker exec
 docker exec id_nombre_contenedor comando
 ```
 
+Creando imágenes con tag <nombre>
+```bash
+docker build . -t germdz/contando
+```
 
 ### Next
-[Cap 18](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16683794#questions)
+[Cap 20](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16683812#questions)
 
