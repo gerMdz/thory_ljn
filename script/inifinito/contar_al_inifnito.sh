@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Saludos"
 i=0
-while :
+while [ $i -le 100 ]
 do
   echo "Llevamos $i segundos"
   ((i=i+1))

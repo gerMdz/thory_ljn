@@ -54,7 +54,31 @@ Creando imágenes con tag <nombre>
 ```bash
 docker build . -t germdz/contando
 ```
+Subiendo imágenes a docker hub
+```bash
+docker push germdz/saludo:1.0
+```
+Conectarse a un contenedor que está en ejecución
+```bash
+docker attach id_contenedor
+```
+
+Parar un contenedor que está en ejecución
+```bash
+docker stop id_contenedor -t x(opcional -t sino espera 10 segundos, x en segundos)
+```
+
+Iniciar un contenedor
+```bash
+docker run <options> imagen
+```
+
+##### Opciones para docker run
+(-t (-it) para acceso a la terminal)
+(-i para acceso con interacción)
+(-d para inicio en modo detach)
+
 
 ### Next
-[Cap 20](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16683812#questions)
+[Cap 23](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16924568#questions)
 
