@@ -73,12 +73,32 @@ Iniciar un contenedor
 docker run <options> imagen
 ```
 
-##### Opciones para docker run
-(-t (-it) para acceso a la terminal)
-(-i para acceso con interacción)
-(-d para inicio en modo detach)
+* Opciones para docker run
+  * (-t (-it) para acceso a la terminal)
 
+  * (-i para acceso con interacción)
+
+  * (-d para inicio en modo detach)
+  * (-rm se elimina un contenedor al detenerse)
+
+
+Iniciar un contenedor y exponer el puerto
+```bash
+docker run --name Nombre -d -p puertoLocal:puertoDockoer imagen
+```
+
+Conectarnos a un contenedor que ya se está ejecutando
+```bash
+docker exec -it NombreImagen bash
+```
+
+
+
+
+#### Pages
+
+[Documentación](https://docs.docker.com/engine/reference/commandline/docker/)
 
 ### Next
-[Cap 23](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16924568#questions)
+[Cap 27](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16977976#questions)
 
