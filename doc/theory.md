@@ -118,6 +118,12 @@ Iniciar un contenedor y exponer el puerto
 docker run --name Nombre -d -p puertoLocal:puertoDockoer imagen
 ```
 
+Iniciar un contenedor con variables de entorno
+```bash
+docker run -it --rm -e VAR1=AAA  imagen
+docker run -it --rm --env-file name.file  imagen
+```
+
 Conectarnos a un contenedor que ya se está ejecutando
 
 ```bash
@@ -145,5 +151,5 @@ docker rm $(ps -a -q)
 
 ### Next
 
-[Cap 29](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/16979686#questions)
+[Cap 30](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17157536#questions)
 
