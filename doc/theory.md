@@ -145,11 +145,16 @@ Borrar todos los comandos (siempre solo los que no están en ejecución)
 docker rm $(ps -a -q)
 ```
 
+Crear un contenedor a partir de otro detenido
+```bash
+docker commit CONTENEDOR IMAGEN
+```
+
 #### Pages
 
 [Documentación](https://docs.docker.com/engine/reference/commandline/docker/)
 
 ### Next
 
-[Cap 31](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17157586#questions)
+[Cap 33](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17220618#questions)
 
