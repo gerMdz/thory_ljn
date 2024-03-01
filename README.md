@@ -11,6 +11,7 @@ docker run -it ubuntu:18.04
 docker run -it python:3.8.0-buster
 ```
 
+Atento, ver el tema de crear el contenedor para hacer la prueba.
 
 ###### Next
-[Cap 32](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17183140#questions)
+[Cap 36](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17251706#questions)
