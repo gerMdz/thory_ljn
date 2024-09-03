@@ -57,6 +57,15 @@ docker rm id_container # o nombre_container
 
 ```
 
+##### Diferencia entre command y entrypoint
+Ver los docker file
+Se puede sobreescribir los entrypoint de inicio
+
+```bash
+docker run --entrypoint newCommand image valueCommand
+```
+
+
 
 ###### Next
-[Cap 41](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17507552#questions)
+[Cap 44](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17819182#questions)
