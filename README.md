@@ -1,6 +1,12 @@
 # thory_ljn
 Curso teórico de microservicios
 
+#### Documentación disponible
+[docker-overview](https://docs.docker.com/get-started/docker-overview/)
+[docker localStorage](https://docs.docker.com/engine/storage/drivers/)
+
+#### Comandos
+
 * Crear un contenedor ubuntu
 ```bash
 docker run -it ubuntu:18.04
@@ -66,6 +72,23 @@ docker run --entrypoint newCommand image valueCommand
 ```
 
 
+#### Comandos
+Crea volúmenes.
+
+```bash
+docker volume create nombre_volumen
+docker run -v nombre_volumen:/varlib/mysql mysql
+docker run --mount type=(bind, volume, tmpfs), source=/data/mysql/nombre_volumen, destination=/varlib/mysql
+
+```
+
+
+#### Documentación
+
+[Storage drivers](https://docs.docker.com/engine/storage/drivers/)
+
+
+
 
 ###### Next
-[Cap 44](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17819182#questions)
+[Cap 46](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17819186#overview)
