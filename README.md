@@ -82,13 +82,37 @@ docker run --mount type=(bind, volume, tmpfs), source=/data/mysql/nombre_volumen
 
 ```
 
+#### Redes
+Crea redes.
+[Network](https://docs.docker.com/engine/network/)
+
+```bash
+docker network ls
+docker ps -a
+docker inspect _id_container_
+docker network create --driver bridge --subnet 172.18.0.0/16 _nombre_red_
+```
+Posibles redes
+docker run -dit --network=bridge
+  Por defecto, se crea en la red por defecto de docker
+docker run -dit --network=host
+  Se crea directamente en la red del host,
+  tener en cuenta que el puerto expuesto es también un puerto del host
+docker run -dit --network=none
+  Se crea aislado, sin acceso de red de docker.
+
+
+
 
 #### Documentación
 
 [Storage drivers](https://docs.docker.com/engine/storage/drivers/)
 
+#### Deprecated
+(Registry)[https://docs.docker.com/retired/]
+
 
 
 
 ###### Next
-[Cap 46](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/17819186#overview)
+[Cap 48](https://www.udemy.com/course/curso-practico-de-docker-y-microservicios-desde-cero/learn/lecture/24236860#overview)
